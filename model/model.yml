@@ -1,0 +1,30 @@
+name_experiment: gru_fullrez_lastlayer_m256
+model:
+    arch: smnet
+    finetune: False
+    n_obj_classes: 13
+    ego_feature_dim: 64
+    mem_feature_dim: 256
+    mem_update: gru
+    ego_downsample: False
+data:
+    train_split: train
+    val_split: val
+    root: /cvhci/data/VisLoc/2Train
+    ego_downsample: False
+    feature_type: lastlayer
+training:
+    train_epoch: 100
+    batch_size: 4 #8
+    n_workers: 4
+    print_interval: 20
+    optimizer:
+        lr:  0.00006
+        betas: [0.9, 0.999]
+        weight_decay: 0.001
+    scheduler:
+        lr_decay_rate: 0.8
+        lr_epoch_per_decay: 30
+    resume: #runs/gru_fullrez_lastlayer_m256/fuse/smnet_mp3d_best_model.pkl
+    load_model: #runs/gru_fullrez_lastlayer_m256/54731/smnet_mp3d_best_model.pkl
+seed: 9876
