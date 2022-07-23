@@ -11,3 +11,5 @@ torch-scatter==1.4.0
 torchvision==0.8.1
 tqdm
 timm==0.4.12
+mmcv-full==1.4.8
+moviepy==1.0.2
