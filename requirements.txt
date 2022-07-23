@@ -10,3 +10,4 @@ torch==1.7.0
 torch-scatter==1.4.0
 torchvision==0.8.1
 tqdm
+timm==0.4.12
