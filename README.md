@@ -20,7 +20,7 @@ The code and model will be made publicly available soon.
     conda create -n Trans4Map python=3.7
     conda activate Trans4Map
     cd /path/to/Trans4Map
-    pip install -r requirement.txt
+    pip install -r requirements.txt
  To get RGBD renderings in Matterport3D dataset, we need to install [Habitat-sim](https://github.com/facebookresearch/habitat-sim) and [Habitat-lab](https://github.com/facebookresearch/habitat-lab).
  To ensure consistency with our working environment，please install the following version Habitat-sim == 0.1.5 and Habitat-lab == 0.1.5.
 
