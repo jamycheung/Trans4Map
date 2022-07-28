@@ -10,11 +10,6 @@ In this work, we propose an end-to-end one-stage Transformer-based framework for
 More detailed can be found in our [arxiv](https://arxiv.org/pdf/2207.06205.pdf) paper.
 
 
-
-### Usage 
-
-The code and model will be made publicly available soon.
-
 ### Installation
 #### To create conda env:
     conda create -n Trans4Map python=3.7
@@ -46,8 +41,8 @@ To obtain the mIOU and mBF1, run:
 ### Main results on Matterport3D with pretrained models
 | Method    | Backbone   | mIOU(%) | weight                                                                         |
 |-----------|------------|---------|--------------------------------------------------------------------------------|
-| ConveNeXt | ConvNeXt-T | 35.91   |                                                                                |
-| ConveNeXt | ConvNeXt-S | 36.49   |                                                                                |
+| ConvNeXt | ConvNeXt-T | 35.91   |                                                                                |
+| ConvNeXt | ConvNeXt-S | 36.49   |                                                                                |
 | FAN       | FAN-T      | 31.07   |                                                                                |
 | FAN       | FAN-S      | 34.62   |                                                                                |
 | Swin      | Swin-T     | 34.19   |                                                                                |
