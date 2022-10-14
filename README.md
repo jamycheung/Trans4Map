@@ -5,6 +5,7 @@ Chang Chen, [Jiaming Zhang](https://jamycheung.github.io/), [Kailun Yang](https:
 
 ### News
 - [10/2022] **Trans4Map** [[**PDF**](https://arxiv.org/pdf/2207.06205.pdf)] is accepted to **WACV2023**.
+- [9/2022] A demo video is at [[**VIDEO**](https://yangkailun.com/videos/trans4map.mp4)].
 
 ![trans4map](fig_trans4map.png)
 
