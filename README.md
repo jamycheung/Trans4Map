@@ -66,10 +66,10 @@ This repository is under the Apache-2.0 license. For commercial use, please cont
 If you are interested in this work, please cite the following work:
 
 ```text
-@article{chen2022trans4map,
-  title={Trans4Map: Revisiting Holistic Top-down Mapping from Egocentric Images to Allocentric Semantics with Vision Transformers},
+@inproceedings{chen2023trans4map,
+  title={Trans4Map: Revisiting Holistic Bird's-Eye-View Mapping from Egocentric Images to Allocentric Semantics with Vision Transformers},
   author={Chen, Chang and Zhang, Jiaming and Yang, Kailun and Peng, Kunyu and Stiefelhagen, Rainer},
-  journal={arXiv preprint arXiv:2207.06205},
-  year={2022}
+  booktitle={2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  year={2023}
 }
 ```
