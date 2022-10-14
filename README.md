@@ -1,7 +1,10 @@
 # Trans4Map
-**Trans4Map: Revisiting Holistic Top-down Mapping from Egocentric Images to Allocentric Semantics with Vision Transformers**
+**Trans4Map: Revisiting Holistic Bird's-Eye-View Mapping from Egocentric Images to Allocentric Semantics with Vision Transformers**
 
 Chang Chen, [Jiaming Zhang](https://jamycheung.github.io/), [Kailun Yang](https://yangkailun.com/), Kunyu Peng, [Rainer Stiefelhagen](https://cvhci.anthropomatik.kit.edu/people_596.php)
+
+### News
+- [10/2022] **Trans4Map** [[**PDF**](https://arxiv.org/pdf/2207.06205.pdf)] is accepted to **WACV2023**.
 
 ![trans4map](fig_trans4map.png)
 
