@@ -28,7 +28,7 @@ More detailed can be found in our [arxiv](https://arxiv.org/pdf/2207.06205.pdf) 
 ### Datasets
 You can prepare the training and test dataset in the same way as [SMNet](https://github.com/vincentcartillier/Semantic-MapNet).
 * ```data/paths.json``` has the given trajectories which are manually recorded by SMNet.
-* The semantic top-down ground truth are also available : [GT](https://drive.google.com/drive/folders/1aM9vfDckY6K81mrVhVLmEX5rKZ2B1Q5r?usp=sharing), please place them under ```data/semmap```.
+* The semantic top-down ground truth are also available on Hugging Face: [Hugging Face Dataset](https://huggingface.co/datasets/InSAI-Lab/Trans4Map) ([semmap.tar.gz](https://huggingface.co/datasets/InSAI-Lab/Trans4Map/resolve/main/semmap.tar.gz)), please extract and place them under ```data/semmap```.
 * Our project is working with [Matterport3D](https://niessner.github.io/Matterport/) dataset and [Replica](https://github.com/facebookresearch/Replica-Dataset) dataset, please download them and place them under ```data/mp3d or data/replica```.
 
 ### Training and Evaluation
@@ -45,16 +45,18 @@ To obtain the mIOU and mBF1, run:
     python eval/eval_bfscore.py
 
 ### Main results on Matterport3D with pretrained models
+Pretrained weights are hosted at [InSAI-Lab/Trans4Map](https://huggingface.co/InSAI-Lab/Trans4Map).
+
 | Method    | Backbone   | mIOU(%) | weight                                                                         |
 |-----------|------------|---------|--------------------------------------------------------------------------------|
-| ConvNeXt | ConvNeXt-T | 35.91   |                                                                                |
-| ConvNeXt | ConvNeXt-S | 36.49   |                                                                                |
-| FAN       | FAN-T      | 31.07   |                                                                                |
-| FAN       | FAN-S      | 34.62   |                                                                                |
-| Swin      | Swin-T     | 34.19   |                                                                                |
-| Swin      | Swin-S     | 36.80   |                                                                                |
-| Trans4Map | MiT-B2     | 40.02   | [B2](https://drive.google.com/drive/folders/17Y0Tz107vwocONd4ddBXFAU3n0236KNK) |
-| Trans4Map | MiT-B4     | 40.88   | [B4](https://drive.google.com/drive/folders/17Y0Tz107vwocONd4ddBXFAU3n0236KNK) |                                                                  |
+| ConvNeXt | ConvNeXt-T | 35.91   | -                                                                              |
+| ConvNeXt | ConvNeXt-S | 36.49   | -                                                                              |
+| FAN       | FAN-T      | 31.07   | -                                                                              |
+| FAN       | FAN-S      | 34.62   | -                                                                              |
+| Swin      | Swin-T     | 34.19   | -                                                                              |
+| Swin      | Swin-S     | 36.80   | -                                                                              |
+| Trans4Map | MiT-B2     | 40.02   | [B2 (119MB)](https://huggingface.co/InSAI-Lab/Trans4Map/resolve/main/Tran4Map_B2_20points.pkl) |
+| Trans4Map | MiT-B4     | 40.88   | [B4 (259MB)](https://huggingface.co/InSAI-Lab/Trans4Map/resolve/main/Tran4Map_B4_20points.pkl) |                                                                  |
 
 ## License
 
